@@ -54,8 +54,10 @@ function Seasons() {
                       </Link>
                     ))}
                   </div>
+                  
                 </div>
               ))}
+              <Link to={`/podcasts`} className="btn btn-outline-light rounded-pill d-block mt-3"> Back to Podcasts</Link>
             </div>
           </div>
         </div>

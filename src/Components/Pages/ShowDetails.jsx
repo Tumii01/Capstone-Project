@@ -51,7 +51,7 @@ function ShowDetails() {
                     </div>
               
               <Link to={`/showDetails/${podcast.id}`} className="btn btn-outline-light rounded-pill"> Seasons</Link>
-               
+              <Link to={'/podcasts'} className="btn btn-outline-light rounded-pill d-block mt-3"> Back to Podcasts</Link>
               </div>
               
             </div>
