@@ -3,6 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 import Search from "./Search";
 import Login from "./Pages/Login";
 
+
 export default function NavBar() {
   return (
     <header className="bg-dark p-1 border border-secondary  border-2 ">
@@ -96,6 +97,15 @@ export default function NavBar() {
           href="#"
         >
           About
+        </Link>
+        
+        <Link
+          to="/fav"
+          className="flex-sm-fill text-sm-center nav-link text-light  fw-bold"
+          href="#"
+        >
+         <img src="/src/assets/star.png" alt="pic" width="15"
+          height="15" /> Favorites
         </Link>
         <Search />
         <Link
