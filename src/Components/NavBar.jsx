@@ -104,7 +104,7 @@ export default function NavBar() {
           className="flex-sm-fill text-sm-center nav-link text-light  fw-bold"
           href="#"
         >
-         <img src="/src/assets/star.png" alt="pic" width="15"
+         <img src="https://www.flaticon.com/free-icons/star" alt="pic" width="15"
           height="15" /> Favorites
         </Link>
         <Search />

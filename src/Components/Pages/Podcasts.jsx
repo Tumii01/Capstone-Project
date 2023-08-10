@@ -118,7 +118,7 @@ const Podcasts = () => {
                 <ul className="list-group list-group-flush bg-dark ">
                   <li className="list-group-item ">Seasons: {show.seasons}</li>
                   <li className="list-group-item">Last Updated: {formatUpdatedAt(show.updated)}</li>
-                  <li className="list-group-item">Genres: {show.genres.map(genreId => genreMapping[genreId]).join(', ')} <img className='ms-3' src="/src/assets/star.png" alt="heart" witdth="18px" height="18px" /></li>
+                  <li className="list-group-item">Genres: {show.genres.map(genreId => genreMapping[genreId]).join(', ')} <img className='ms-3' src="https://www.flaticon.com/free-icons/star" alt="heart" witdth="18px" height="18px" /></li>
                 
                 </ul>
                 
